@@ -1,7 +1,67 @@
+
+.container{
+    margin-bottom: 50px;
+}
+
 .bg-nav{
     background-color: white;
 }
 .navbar-nav a{
     font-weight: 700;
     margin-left: 30px;
+}
+
+.buy-now-btn{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 15px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.orange-cl{
+    color: orange;
+    text-decoration: none;
+    font-weight: 700;
+}
+.card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px lightgray;
+    text-align: center;
+}
+
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+
+.card p{
+    color: gray
+}
+
+.categories img{
+    width: 100%;
+}
+.categories{
+    text-align: center;
+    margin-top: 150px;
+}
+.cat{
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px lightgray;
+    padding: 50px 50px 20px 50px;
+}
+.cat-head{
+    margin-bottom: 50px;
+}
+
+.categories p{
+    color: orange;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-top: -120px;
+    border-radius: 100px;
 }
