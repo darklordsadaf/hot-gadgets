@@ -10,6 +10,15 @@
     font-weight: 700;
     margin-left: 30px;
 }
+.bg{
+    background-image: url("images/bg-2.png"), url("images/bg-1.png") ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, center;
+    background-size: 150px, 60px ;
+}
+.car-pad{
+    padding-right: 80px;
+}
 .carousel{
     margin-top:-100px;
 }
@@ -100,5 +109,14 @@
     }
     .cat{
         margin: 0 auto;
+    }
+    .bg{
+        background-size: 30vw, 15vw;
+        background-position: left bottom, right;
+    }
+}
+@media (min-width: 1600px){
+    .bg{
+        background-size: 200px, 65px;
     }
 }
