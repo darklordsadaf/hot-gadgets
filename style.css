@@ -10,7 +10,9 @@
     font-weight: 700;
     margin-left: 30px;
 }
-
+.carousel-indicators li{
+    background-color: orange;
+}
 .buy-now-btn{
     background-color: black;
     border: none;
